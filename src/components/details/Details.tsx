@@ -2,7 +2,7 @@ import Asteroid from "../../models/Asteroid";
 import warningImg from "../../assets/imgs/warning.png";
 import starImg from "../../assets/imgs/star.png";
 import "./Details.css";
-import { calculateMagnitude } from "../utils/asteroid";
+import { calculateMagnitude } from "../../utils/asteroid";
 
 function Details({
   asteroid,
